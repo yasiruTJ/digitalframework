@@ -2,12 +2,13 @@
 .page-container {
     display: flex;
     flex-direction: column; /* Stack heading and containers vertically */
-    justify-content: center;
+    justify-content: flex-start; /* Start content from the top */
     align-items: center;
     background-color: #f7f9fc; /* Light, neutral background */
     padding: 20px; /* Add some padding around the page */
-    min-height: 100vh; /* Ensure full height for vertical centering */
     width: 100%; /* Make sure the container takes full width */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-sizing: border-box; /* Include padding in the container's total width */
 }
 
 h1 {
@@ -23,8 +24,8 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid columns */
     gap: 20px; /* Space between the boxes */
     justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    max-width: 90%; /* Ensure the grid container doesn't exceed the viewport */
+    align-items: start; /* Align items to the top */
+    max-width: 100%; /* Ensure the grid container takes full width */
     margin: 0 auto; /* Center the grid container horizontally */
 }
 
@@ -67,4 +68,11 @@ h1 {
 
 .box3 {
     background-color: #ccebc5; /* Soft green */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .page-container {
+        height: 150vh; /* Set height to 150vh on mobile devices */
+    }
 }
