@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/digitalframework/static/css/main.0f2e98be.css",
+    "main.js": "/digitalframework/static/js/main.e03e581a.js",
+    "static/js/453.996c8d3c.chunk.js": "/digitalframework/static/js/453.996c8d3c.chunk.js",
+    "index.html": "/digitalframework/index.html",
+    "main.0f2e98be.css.map": "/digitalframework/static/css/main.0f2e98be.css.map",
+    "main.e03e581a.js.map": "/digitalframework/static/js/main.e03e581a.js.map",
+    "453.996c8d3c.chunk.js.map": "/digitalframework/static/js/453.996c8d3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f2e98be.css",
+    "static/js/main.e03e581a.js"
+  ]
+}
