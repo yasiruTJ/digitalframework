@@ -25,13 +25,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/page1" element={<Page1 />} />
-        <Route path="/page2" element={<Page2 />} />
-        <Route path="/page3" element={<Page3 />} />
-        <Route path="/page4" element={<Page4 />} />
-        <Route path="/page5" element={<Page5 />} />
-        <Route path="/page6" element={<Page6 />} />
+        <Route path="/digitalframework" element={<Main />} />
+        <Route path="/digitalframework/page1" element={<Page1 />} />
+        <Route path="/digitalframework/page2" element={<Page2 />} />
+        <Route path="/digitalframework/page3" element={<Page3 />} />
+        <Route path="/digitalframework/page4" element={<Page4 />} />
+        <Route path="/digitalframework/page5" element={<Page5 />} />
+        <Route path="/digitalframework/page6" element={<Page6 />} />
         <Route path="/informationLiteracy" element={<MainInformationLiteracy />} />
         <Route path="/dataLiteracy" element={<DataLiteracy />} />
         <Route path="/mediaLiteracy" element={<MediaLiteracy />} />
