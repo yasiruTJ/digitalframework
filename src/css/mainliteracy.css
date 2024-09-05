@@ -1,0 +1,70 @@
+/* src/css/page1.css */
+.page-container {
+    display: flex;
+    flex-direction: column; /* Stack heading and containers vertically */
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fc; /* Light, neutral background */
+    padding: 20px; /* Add some padding around the page */
+    min-height: 100vh; /* Ensure full height for vertical centering */
+    width: 100%; /* Make sure the container takes full width */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space between the heading and the containers */
+    font-size: 24px; /* Size of the heading */
+    color: #2e3d49; /* Darker text for readability */
+    text-align: center; /* Center the heading text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant font */
+}
+
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid columns */
+    gap: 20px; /* Space between the boxes */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    max-width: 90%; /* Ensure the grid container doesn't exceed the viewport */
+    margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #2e3d49; /* Darker text for readability */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant font */
+    transition: transform 0.2s; /* Animation for hover effect */
+    text-align: center; /* Center text horizontally */
+    padding: 10px; /* Padding around text */
+    box-sizing: border-box; /* Include padding in box's total size */
+    cursor: pointer; /* Indicate that the box is clickable */
+}
+
+.box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.icon {
+    margin-bottom: 8px; /* Space between icon and text */
+    font-size: 24px; /* Size of the Font Awesome icon */
+    color: #2e3d49; /* Color of the icon */
+}
+
+.box1 {
+    background-color: #b3cde0; /* Soft blue */
+}
+
+.box2 {
+    background-color: #fbb4ae; /* Soft coral */
+}
+
+.box3 {
+    background-color: #ccebc5; /* Soft green */
+}

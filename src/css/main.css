@@ -1,0 +1,70 @@
+/* src/css/main.css */
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to vertically center */
+  background-color: #f7f9fc; /* Light, neutral background */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* 3 columns */
+    gap: 20px;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #2e3d49; /* Darker text for readability */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant font */
+    transition: transform 0.2s; /* Animation for hover effect */
+    text-align: center; /* Ensure text is centered horizontally */
+    padding: 10px; /* Add padding to create space around text */
+    box-sizing: border-box; /* Include padding in the box's total size */
+  }
+  
+  .icon {
+    margin-bottom: 8px; /* Space between icon and text */
+    font-size: 24px; /* Size of the Font Awesome icon */
+    color: #2e3d49; /* Color of the icon */
+  }
+  
+  .box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .box1 {
+    background-color: #b3cde0; /* Soft blue */
+  }
+  
+  .box2 {
+    background-color: #fbb4ae; /* Soft coral */
+  }
+  
+  .box3 {
+    background-color: #ccebc5; /* Soft green */
+  }
+  
+  .box4 {
+    background-color: #decbe4; /* Soft purple */
+  }
+  
+  .box5 {
+    background-color: #fed9a6; /* Soft orange */
+  }
+  
+  .box6 {
+    background-color: #ffffcc; /* Soft yellow */
+  }
+  
